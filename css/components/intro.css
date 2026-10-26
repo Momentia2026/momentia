@@ -1,0 +1,71 @@
+/**
+ * intro.css - Franja de Introducción y Compromiso
+ */
+
+.intro {
+  background-color: var(--navy-deep);
+  background-image: var(--bg-corporate-dark);
+  color: var(--text-on-dark);
+  padding: 80px 0;
+}
+
+.intro .wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro h3,
+.intro .intro-title {
+  color: var(--white);
+  font-size: 1.65rem;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+  text-align: center;
+  margin: 0 auto 36px auto;
+  max-width: 920px;
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  width: 100%;
+  align-items: start;
+}
+
+.intro p {
+  line-height: 1.7;
+  font-size: 1.05rem;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: none;
+  margin: 0;
+}
+
+.intro p + p {
+  margin-top: 0;
+}
+
+@media (max-width: 800px) {
+  .intro {
+    padding: 56px 0;
+  }
+
+  .intro h3,
+  .intro .intro-title {
+    font-size: 1.35rem;
+    margin-bottom: 24px;
+  }
+
+  .intro-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .intro p {
+    text-align: left;
+    text-wrap: pretty;
+  }
+}

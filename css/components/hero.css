@@ -1,0 +1,170 @@
+/**
+ * hero.css - Sección Principal / Hero
+ */
+
+.hero {
+  background-color: var(--navy-deep);
+  background-image: var(--bg-corporate-dark);
+  position: relative;
+  overflow: hidden;
+  padding: 110px 0 90px 0;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 0 60px 0;
+  }
+}
+
+/* Efecto de resplandor sutil corporativo */
+.hero::after {
+  content: "";
+  position: absolute;
+  right: -8%;
+  top: 8%;
+  width: 620px;
+  height: 620px;
+  background: conic-gradient(from 200deg, var(--orange-glow), transparent 35%);
+  filter: blur(14px);
+  pointer-events: none;
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 36px;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+.hero h1 {
+  font-size: clamp(2.4rem, 4.6vw, 3.6rem);
+  font-weight: 800;
+  color: var(--white);
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+  max-width: 640px;
+  overflow-wrap: break-word;
+  text-align: left;
+}
+
+.hero h1 span {
+  color: var(--orange);
+}
+
+.hero .eyebrow {
+  text-align: left;
+  width: fit-content;
+  margin-top: 0;
+  color: var(--text-on-dark);
+  font-size: 1.08rem;
+}
+
+@media (max-width: 500px) {
+  .hero .eyebrow {
+    font-size: 0.92rem;
+    letter-spacing: 0.12em;
+  }
+}
+
+.hero .hero-desc {
+  margin-top: 24px;
+  font-size: 1.08rem;
+  color: var(--text-on-dark);
+  max-width: 540px;
+  line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: none;
+}
+
+.hero-ctas {
+  display: flex;
+  gap: 16px;
+  margin-top: 38px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+  .hero-ctas {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-ctas .btn-primary,
+  .hero-ctas .btn-ghost {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Botones principales de acción */
+.btn-primary {
+  font-family: var(--font-family-heading);
+  font-weight: 700;
+  background: var(--orange);
+  color: var(--white);
+  padding: 15px 28px;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: transform var(--transition-fast), background-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.btn-primary:hover {
+  background: var(--orange-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(var(--orange-rgb), 0.35);
+  color: var(--white);
+}
+
+.btn-ghost {
+  font-family: var(--font-family-heading);
+  font-weight: 700;
+  background: transparent;
+  color: var(--white);
+  padding: 15px 26px;
+  border: 1.5px solid rgba(var(--white-rgb), 0.45);
+  border-radius: 4px;
+  font-size: 0.95rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: border-color var(--transition-fast), background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.btn-ghost:hover {
+  border-color: var(--white);
+  background: rgba(var(--white-rgb), 0.08);
+  color: var(--white);
+}
+
+/* Arte / Foto del Hero */
+.hero-art {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 380px;
+}
+
+.hero-art img {
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.40);
+  border: 1px solid var(--line-glass);
+}
