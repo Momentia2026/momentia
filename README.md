@@ -10,10 +10,10 @@
   </p>
 
   <p align="center">
-    <a href="https://momentia2026.github.io/momentia/">
+    <a href="https://www.momentiaco.com/">
       <img src="https://img.shields.io/badge/Website-Live-success?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Website" />
     </a>
-    <a href="https://momentia2026.github.io/momentia/legal.html">
+    <a href="https://www.momentiaco.com/legal.html">
       <img src="https://img.shields.io/badge/Privacy_Policy-Online-011E59?style=for-the-badge&logo=shield&logoColor=white" alt="Privacy Policy" />
     </a>
     <img src="https://img.shields.io/badge/Version-2.0-F26A0C?style=for-the-badge" alt="Version 2.0" />
@@ -27,7 +27,7 @@
     <img src="https://img.shields.io/badge/Assets-WebP_%2B_SVG-informational?style=flat-square" alt="WebP and SVG" />
   </p>
 
-  **[🌐 Visit Official Website](https://momentia2026.github.io/momentia/)** &nbsp;•&nbsp; **[📜 Privacy Policy & Terms of Use](https://momentia2026.github.io/momentia/legal.html)**
+  **[🌐 Visit Official Website](https://www.momentiaco.com/)** &nbsp;•&nbsp; **[📜 Privacy Policy & Terms of Use](https://www.momentiaco.com/legal.html)**
 
 </div>
 
@@ -123,8 +123,8 @@ For partnership inquiries, distribution proposals, or additional business docume
 - **Entity**: Momentia & Co, LLC  
 - **Location**: Houston, Texas, USA  
 - **Email**: [business@momentiaco.com](mailto:business@momentiaco.com)  
-- **Website**: [momentia2026.github.io/momentia](https://momentia2026.github.io/momentia/)  
-- **Privacy Policy**: [momentia2026.github.io/momentia/legal.html](https://momentia2026.github.io/momentia/legal.html)  
+- **Website**: [www.momentiaco.com](https://www.momentiaco.com/)  
+- **Privacy Policy**: [www.momentiaco.com/legal.html](https://www.momentiaco.com/legal.html)  
 
 ---
 
